@@ -37,6 +37,8 @@ docker run -p 8888:8888 -v $(pwd):/app meu-jupyter
 Após executar o comando acima, o terminal exibirá um link contendo o token de acesso.
 Copie o link e abra no navegador para acessar o ambiente Jupyter Notebook.
 
+---
+
 ### Sobre a Disciplina
 A disciplina de Controle e Automação aborda os fundamentos teóricos e práticos de sistemas de controle, modelagem de sistemas dinâmicos, análise de estabilidade, resposta temporal e frequencial, além de aplicações computacionais utilizando Python.
 Os notebooks deste repositório complementam o conteúdo teórico com exemplos e experimentos simulados.
