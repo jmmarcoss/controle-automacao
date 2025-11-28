@@ -27,12 +27,12 @@ cd controle-automacao
 
 2. **Build da imagem Docker**
 ```bash
-docker build -t meu-jupyter .
+docker build -t pds .
 ```
 
 3. **Iniciar o container**
 ```bash
-docker run -p 8888:8888 -v $(pwd):/app meu-jupyter
+docker run -p 8888:8888 -v $(pwd):/app pds
 ```
 Após executar o comando acima, o terminal exibirá um link contendo o token de acesso.
 Copie o link e abra no navegador para acessar o ambiente Jupyter Notebook.
