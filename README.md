@@ -8,7 +8,6 @@ Cada arquivo representa uma aula, exercício ou experimento desenvolvido ao long
 ### Estrutura do Repositório
 
 - **/entrega-1**, **/entrega-2**, **/entrega-3**: Contêm os arquivos Jupyter Notebook (.ipynb) correspondentes às entregas das atividades práticas.
-- **/data** *(opcional)*: Contém os arquivos de dados utilizados nas atividades, se aplicável.
 - **requirements.txt**: Lista de bibliotecas Python necessárias para executar os notebooks.
 - **Dockerfile**: Configuração da imagem Docker para rodar o ambiente Jupyter Notebook.
 
@@ -27,12 +26,12 @@ cd controle-automacao
 
 2. **Build da imagem Docker**
 ```bash
-docker build -t pds .
+docker build -t controle .
 ```
 
 3. **Iniciar o container**
 ```bash
-docker run -p 8888:8888 -v $(pwd):/app pds
+docker run -p 8888:8888 -v $(pwd):/app controle
 ```
 Após executar o comando acima, o terminal exibirá um link contendo o token de acesso.
 Copie o link e abra no navegador para acessar o ambiente Jupyter Notebook.
